@@ -1,6 +1,9 @@
 package bit;
 
 public class BitTraversal {
+    /*
+    contrary to array, bit are traversed from right to left
+     */
 
     public static void main(String[] args) {
 

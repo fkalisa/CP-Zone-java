@@ -1,2 +1,4 @@
-package sort;public class InsertionSort {
+package sort;
+
+public class InsertionSort {
 }

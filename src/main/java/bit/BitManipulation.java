@@ -1,8 +1,5 @@
 package bit;
 
-
-
-
 public class BitManipulation {
 
     public static void main(String[] args) {
@@ -47,6 +44,4 @@ public class BitManipulation {
         System.out.println("--checkDifferenceElement--");
         System.out.println(a ^ b);
     }
-
-
 }

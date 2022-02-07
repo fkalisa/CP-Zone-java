@@ -1,2 +1,4 @@
-package sort;public class SelectionSort {
+package sort;
+
+public class SelectionSort {
 }

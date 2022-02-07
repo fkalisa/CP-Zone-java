@@ -1,2 +1,4 @@
-package sort;public class DutchFlagAlgorithm {
+package sort;
+
+public class DutchFlagAlgorithm {
 }

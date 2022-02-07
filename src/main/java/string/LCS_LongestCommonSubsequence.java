@@ -1,8 +1,8 @@
 package string;
 
-public class LongestCommonSubsequence {
+public class LCS_LongestCommonSubsequence {
     public static void main(String[] args) {
-        
+
     }
 }
 

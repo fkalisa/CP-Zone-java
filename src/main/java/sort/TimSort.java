@@ -1,2 +1,4 @@
-package sort;public class TimSort {
+package sort;
+
+public class TimSort {
 }
