@@ -8,4 +8,7 @@ public class Subsequence {
 
 
     }
+    // using recursion
+
+    // using binary number
 }

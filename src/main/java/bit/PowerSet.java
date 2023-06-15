@@ -18,10 +18,8 @@ public class PowerSet {
                     stack.add(arr[j]);
                 }
             }
-            while (!stack.isEmpty()){
-                System.out.print(stack.pop());
-            }
-            System.out.println();
+
+            System.out.println(stack);
         }
 
     }

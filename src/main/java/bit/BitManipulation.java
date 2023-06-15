@@ -3,18 +3,19 @@ package bit;
 public class BitManipulation {
 
     public static void main(String[] args) {
+        
         checkLastBitIsSet(3);
         checkTheIthBitIsSet(14, 3);
     }
-
+    //memo
     public static void checkTheIthBitIsSet(int a, int i){
-        System.out.println("--checkTheIthBitIsSet--");
+        System.out.println("--checkTheIthBitIsSet & | --");
         // i is the index
         System.out.println(a&(1<<i));
     }
 
     public static void setTheIthBit(int a, int i){
-        System.out.println("--setTheIthBit--");
+        System.out.println("--setTheIthBit --");
         // i is the index
         System.out.println(a|(1<< i));
     }
@@ -43,5 +44,16 @@ public class BitManipulation {
     public static void checkDifferenceElement(int a, int b){
         System.out.println("--checkDifferenceElement--");
         System.out.println(a ^ b);
+    }
+
+    public static void countNumberOfBitSetToOne(int a){
+        System.out.println("--count--");
+        int counter = 0;
+
+        while(a!=0){
+            counter ++;
+            a =a & (a-1);
+        }
+        System.out.println(counter);
     }
 }

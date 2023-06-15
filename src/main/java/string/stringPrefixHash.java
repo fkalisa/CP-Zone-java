@@ -1,7 +1,10 @@
 package string;
 
-public class LCS_DeleteOperationForTwoString {
+public class stringPrefixHash {
+
     public static void main(String[] args) {
+
+        String s = "hello world";
 
     }
 }

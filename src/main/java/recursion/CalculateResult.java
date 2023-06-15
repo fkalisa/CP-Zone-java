@@ -1,9 +1,12 @@
 package recursion;
 
 public class CalculateResult {
+    /*
+        https://leetcode.com/problems/decode-string/
+        https://leetcode.com/problems/basic-calculator/
+     */
     public static void main(String[] args) {
-
-        System.out.println(compute("3*(9+1)*2", 0)[0]);
+        System.out.println(compute("(1+(4+5+2)+3)+(6+8)", 0)[0]);
     }
 
     public static int[] compute(String input, int i){

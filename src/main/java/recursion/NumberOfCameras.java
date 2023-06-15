@@ -1,6 +1,6 @@
 package recursion;
 
-public class Main {
+public class NumberOfCameras {
     public static void main(String[] args) {
 
     }
